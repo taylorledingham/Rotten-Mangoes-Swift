@@ -7,3 +7,22 @@
 //
 
 import Foundation
+import UIKit
+
+class Movie: NSObject {
+    
+    var movieTitle: String = ""
+    var releaseDate: String = ""
+    var movieSynopsis: String = ""
+    var movieID: String = ""
+    var audienceRating: String = ""
+    var criticRating: String = ""
+    var thumbnailImageURL: NSURL?
+    var posterImageURL: NSURL?
+
+    
+  func  initWithMovieTitle(title: String) {
+    self.movieTitle = title;
+    }
+    
+}

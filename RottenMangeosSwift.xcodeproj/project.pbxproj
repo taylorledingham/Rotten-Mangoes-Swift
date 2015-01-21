@@ -7,15 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901B2F251A2E2B86005FB8C4 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 901B2F1F1A2E2ABA005FB8C4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90579B671A322B8D00BF035E /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90579B661A322B8D00BF035E /* MovieCollectionViewCell.swift */; };
+		90579B6C1A33A9D100BF035E /* MovieDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90579B6B1A33A9D100BF035E /* MovieDetailTableViewController.swift */; };
+		90579B841A38F71100BF035E /* Haneke.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 90579B7C1A38F62600BF035E /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9083C2601A2E3751006114C5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083C25F1A2E3751006114C5 /* SwiftyJSON.swift */; };
 		90F2B2A41A2D569400FE3CFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F2B2A31A2D569400FE3CFB /* AppDelegate.swift */; };
-		90F2B2A61A2D569400FE3CFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F2B2A51A2D569400FE3CFB /* ViewController.swift */; };
 		90F2B2A91A2D569400FE3CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F2B2A71A2D569400FE3CFB /* Main.storyboard */; };
 		90F2B2AB1A2D569400FE3CFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F2B2AA1A2D569400FE3CFB /* Images.xcassets */; };
 		90F2B2AE1A2D569400FE3CFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F2B2AC1A2D569400FE3CFB /* LaunchScreen.xib */; };
 		90F2B2BA1A2D569400FE3CFB /* RottenMangeosSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F2B2B91A2D569400FE3CFB /* RottenMangeosSwiftTests.swift */; };
+		90F2B2C61A2D57E300FE3CFB /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F2B2C51A2D57E300FE3CFB /* MovieCollectionViewController.swift */; };
+		90F2B2C81A2E256700FE3CFB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F2B2C71A2E256700FE3CFB /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		901B2F1E1A2E2ABA005FB8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 901B2F191A2E2AB9005FB8C4 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		901B2F201A2E2ABA005FB8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 901B2F191A2E2AB9005FB8C4 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		901B2F221A2E2B5A005FB8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 901B2F191A2E2AB9005FB8C4 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		90579B7B1A38F62600BF035E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90579B731A38F62600BF035E /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9561980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
+		90579B7D1A38F62600BF035E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90579B731A38F62600BF035E /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9611980418C00CD0F4C;
+			remoteInfo = HanekeTests;
+		};
+		90579B7F1A38F62600BF035E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90579B731A38F62600BF035E /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
+			remoteInfo = HanekeDemo;
+		};
+		90579B811A38F64900BF035E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90579B731A38F62600BF035E /* Haneke.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A095C9551980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
 		90F2B2B41A2D569400FE3CFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90F2B2961A2D569300FE3CFB /* Project object */;
@@ -25,17 +80,47 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		901B2F241A2E2B68005FB8C4 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				90579B841A38F71100BF035E /* Haneke.framework in Copy Frameworks */,
+				901B2F251A2E2B86005FB8C4 /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90579B831A38F65700BF035E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		901B2F191A2E2AB9005FB8C4 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		90579B661A322B8D00BF035E /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		90579B6B1A33A9D100BF035E /* MovieDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailTableViewController.swift; sourceTree = "<group>"; };
+		90579B731A38F62600BF035E /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = "../../Downloads/HanekeSwift-master/Haneke.xcodeproj"; sourceTree = "<group>"; };
+		9083C25F1A2E3751006114C5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		90F2B29E1A2D569400FE3CFB /* RottenMangeosSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenMangeosSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F2B2A21A2D569400FE3CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F2B2A31A2D569400FE3CFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90F2B2A51A2D569400FE3CFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90F2B2A81A2D569400FE3CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90F2B2AA1A2D569400FE3CFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90F2B2AD1A2D569400FE3CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		90F2B2B31A2D569400FE3CFB /* RottenMangeosSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenMangeosSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F2B2B81A2D569400FE3CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F2B2B91A2D569400FE3CFB /* RottenMangeosSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenMangeosSwiftTests.swift; sourceTree = "<group>"; };
+		90F2B2C51A2D57E300FE3CFB /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		90F2B2C71A2E256700FE3CFB /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +141,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		901B2F1A1A2E2AB9005FB8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				901B2F1F1A2E2ABA005FB8C4 /* Alamofire.framework */,
+				901B2F211A2E2ABA005FB8C4 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90579B741A38F62600BF035E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90579B7C1A38F62600BF035E /* Haneke.framework */,
+				90579B7E1A38F62600BF035E /* HanekeTests.xctest */,
+				90579B801A38F62600BF035E /* HanekeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		90F2B2951A2D569300FE3CFB = {
 			isa = PBXGroup;
 			children = (
 				90F2B2A01A2D569400FE3CFB /* RottenMangeosSwift */,
 				90F2B2B61A2D569400FE3CFB /* RottenMangeosSwiftTests */,
 				90F2B29F1A2D569400FE3CFB /* Products */,
+				90579B731A38F62600BF035E /* Haneke.xcodeproj */,
+				901B2F191A2E2AB9005FB8C4 /* Alamofire.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +184,14 @@
 			isa = PBXGroup;
 			children = (
 				90F2B2A31A2D569400FE3CFB /* AppDelegate.swift */,
-				90F2B2A51A2D569400FE3CFB /* ViewController.swift */,
+				90579B661A322B8D00BF035E /* MovieCollectionViewCell.swift */,
+				90F2B2C51A2D57E300FE3CFB /* MovieCollectionViewController.swift */,
+				90579B6B1A33A9D100BF035E /* MovieDetailTableViewController.swift */,
+				90F2B2C71A2E256700FE3CFB /* Movie.swift */,
 				90F2B2A71A2D569400FE3CFB /* Main.storyboard */,
 				90F2B2AA1A2D569400FE3CFB /* Images.xcassets */,
 				90F2B2AC1A2D569400FE3CFB /* LaunchScreen.xib */,
+				9083C25F1A2E3751006114C5 /* SwiftyJSON.swift */,
 				90F2B2A11A2D569400FE3CFB /* Supporting Files */,
 			);
 			path = RottenMangeosSwift;
@@ -122,10 +232,14 @@
 				90F2B29A1A2D569400FE3CFB /* Sources */,
 				90F2B29B1A2D569400FE3CFB /* Frameworks */,
 				90F2B29C1A2D569400FE3CFB /* Resources */,
+				901B2F241A2E2B68005FB8C4 /* Copy Frameworks */,
+				90579B831A38F65700BF035E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				90579B821A38F64900BF035E /* PBXTargetDependency */,
+				901B2F231A2E2B5A005FB8C4 /* PBXTargetDependency */,
 			);
 			name = RottenMangeosSwift;
 			productName = RottenMangeosSwift;
@@ -179,6 +293,16 @@
 			mainGroup = 90F2B2951A2D569300FE3CFB;
 			productRefGroup = 90F2B29F1A2D569400FE3CFB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 901B2F1A1A2E2AB9005FB8C4 /* Products */;
+					ProjectRef = 901B2F191A2E2AB9005FB8C4 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 90579B741A38F62600BF035E /* Products */;
+					ProjectRef = 90579B731A38F62600BF035E /* Haneke.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				90F2B29D1A2D569400FE3CFB /* RottenMangeosSwift */,
@@ -186,6 +310,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		901B2F1F1A2E2ABA005FB8C4 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 901B2F1E1A2E2ABA005FB8C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		901B2F211A2E2ABA005FB8C4 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 901B2F201A2E2ABA005FB8C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90579B7C1A38F62600BF035E /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = 90579B7B1A38F62600BF035E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90579B7E1A38F62600BF035E /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = 90579B7D1A38F62600BF035E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90579B801A38F62600BF035E /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = 90579B7F1A38F62600BF035E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		90F2B29C1A2D569400FE3CFB /* Resources */ = {
@@ -212,8 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F2B2A61A2D569400FE3CFB /* ViewController.swift in Sources */,
 				90F2B2A41A2D569400FE3CFB /* AppDelegate.swift in Sources */,
+				90F2B2C81A2E256700FE3CFB /* Movie.swift in Sources */,
+				90579B671A322B8D00BF035E /* MovieCollectionViewCell.swift in Sources */,
+				90579B6C1A33A9D100BF035E /* MovieDetailTableViewController.swift in Sources */,
+				9083C2601A2E3751006114C5 /* SwiftyJSON.swift in Sources */,
+				90F2B2C61A2D57E300FE3CFB /* MovieCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +394,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		901B2F231A2E2B5A005FB8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 901B2F221A2E2B5A005FB8C4 /* PBXContainerItemProxy */;
+		};
+		90579B821A38F64900BF035E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haneke;
+			targetProxy = 90579B811A38F64900BF035E /* PBXContainerItemProxy */;
+		};
 		90F2B2B51A2D569400FE3CFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 90F2B29D1A2D569400FE3CFB /* RottenMangeosSwift */;
@@ -405,6 +581,7 @@
 				90F2B2BF1A2D569400FE3CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F2B2C01A2D569400FE3CFB /* Build configuration list for PBXNativeTarget "RottenMangeosSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +590,7 @@
 				90F2B2C21A2D569400FE3CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
